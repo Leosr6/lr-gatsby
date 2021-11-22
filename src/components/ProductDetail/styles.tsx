@@ -1,4 +1,4 @@
-import tw from "tailwind-styled-components"
+import tw from "tailwind-styled-components";
 
 export const Container = tw.div`
     w-screen
@@ -6,10 +6,10 @@ export const Container = tw.div`
     flex
     justify-center
     items-center
-`
+`;
 export const Image = tw.img`
     w-full h-full
-`
+`;
 
 export const ItemContainer = tw.div`
     flex
@@ -20,4 +20,4 @@ export const ItemContainer = tw.div`
     border-2
     h-1/4 
     w-1/4
-`
+`;

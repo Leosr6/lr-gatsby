@@ -1,9 +1,9 @@
-import React from "react"
-import { Product } from "../../../types/product"
-import { Container, Image, ItemContainer } from "./styles"
+import React from "react";
+import { Product } from "../../../types/product";
+import { Container, Image, ItemContainer } from "./styles";
 
 export interface ProductDetailProps {
-  product: Product
+  product: Product;
 }
 
 const ProductDetail = ({ product }: ProductDetailProps): JSX.Element => {
@@ -20,7 +20,7 @@ const ProductDetail = ({ product }: ProductDetailProps): JSX.Element => {
         </div>
       </ItemContainer>
     </Container>
-  )
-}
+  );
+};
 
-export default ProductDetail
+export default ProductDetail;
